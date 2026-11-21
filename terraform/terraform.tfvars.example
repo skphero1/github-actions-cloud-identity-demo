@@ -1,0 +1,9 @@
+# Copy to terraform.tfvars (gitignored) and set your GitHub username or organization.
+github_owner = "YOUR_GITHUB_USERNAME"
+github_repo  = "github-actions-cloud-identity-demo"
+aws_region   = "us-east-1"
+
+# If your AWS account already has an IAM OIDC provider for token.actions.githubusercontent.com,
+# set create_oidc_provider = false and supply its ARN below:
+# create_oidc_provider       = false
+# existing_oidc_provider_arn = "arn:aws:iam::123456789012:oidc-provider/token.actions.githubusercontent.com"
